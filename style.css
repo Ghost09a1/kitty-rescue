@@ -39,7 +39,7 @@ body {
     padding: 0;
 }
 body {
-       color: #dcccdc;
+    color: #dcccdc;
     display: grid;
     place-items: center;
 }
@@ -50,16 +50,16 @@ main {
     text-align: center;
 }
 button {
-  display: block;
-  padding: 10px 20px;
-  background-color: #415a77;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  border: none;
-  text-align: center;
-  font-weight: bold;
-  margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #415a77;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
 }
 .happy {
     color: #0d1b2a;
