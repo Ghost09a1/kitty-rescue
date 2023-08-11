@@ -1,50 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kitty Rescue</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Streetcat Rescue</h1>
-      <div>
-        <img id="cat" src="https://images.pexels.com/photos/3318215/pexels-photo-3318215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="kitten" />
-      </div>
-      <input
-        class="happy"
-        type="text"
-        name="amount"
-        id="amount"
-        placeholder="Any amount helps!"
-      />
-      <button class="happy" id="btn">We appreciate your donation!</button>
-    </main>
-
-    <script>
-      const button = document.getElementById('btn');
-      const input = document.getElementById('amount');
-      const cat = document.getElementById('cat');
-
-      function handleDonation() {
-        const amount = input.value;
-
-        if (amount == 0) {
-          alert('Thanks for nothing, the cats are all sad :(');
-          document.body.style.background = 'red';
-        } else {
-          alert(`Thanks for the donation of $ ${amount}!`);
-        }
-      }
-
-      function catClick() {
-        document.body.style.background = 'pink';
-      }
-
-      btn.addEventListener('click', handleDonation);
-      cat.addEventListener('click', catClick);
-      // catClick();
-    </script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kitty Rescue</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="fressnapf.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Streetcat Rescue</h1>
+            <div>
+                <img
+                    id="cat"
+                    src="https://images.pexels.com/photos/3318215/pexels-photo-3318215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="kitten"
+                />
+            </div>
+            <input
+                class="happy"
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search for pet supplies"
+            />
+            <button class="happy" id="searchBtn">Search on Fressnapf</button>
+            />
+            <button class="happy" id="btn">We appreciate your donation!</button>
+        </main>
+    </body>
 </html>
