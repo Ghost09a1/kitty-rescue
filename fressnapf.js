@@ -19,12 +19,15 @@ async function searchFressnapf(query) {
 }
 
 const searchButton = document.getElementById("searchBtn");
+console.log(searchButton);
 const input = document.getElementById("search");
+console.log(input);
 
 function handleSearchButtonClick() {
     const searchTerm = input.value;
-    console.log({ searchButton, searchTerm, input });
+
     searchFressnapf(searchTerm);
 }
-
-searchButton.addEventListener("click", handleSearchButtonClick);
+// handleSearchButtonClick();
+// searchButton.addEventListener("click", handleSearchButtonClick);
+console.log({ searchButton, searchTerm, input });
